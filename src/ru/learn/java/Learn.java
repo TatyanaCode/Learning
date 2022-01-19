@@ -41,7 +41,7 @@ public class Learn {
             default:
                 System.out.println("Вы что то не то ввели");
 
-
+                System.out.println("kgjhgjh");
         }
     }
 }
