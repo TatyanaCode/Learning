@@ -14,17 +14,18 @@ public class Learn2 {
 
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.println("Введите число");
+            System.out.print("Введите число ");
             int value = scanner.nextInt();
             arr[i] = value;
         }
 
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min)
+            if (arr[i] < min) {
                 min = arr[i];
-            System.out.println("Minimal" + min);
+            }
         }
+        System.out.println("Minimal " + min);
     }
 }
 
