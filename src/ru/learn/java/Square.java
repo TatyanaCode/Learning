@@ -16,7 +16,7 @@ public class Square {
                 c = scanner.nextDouble();
                 // D=b^{2}-4ac.
                 d = b * b - 4 * a * c;
-                System.out.println("Дискриминант D = " + d);
+                System.out.println("Дискриминант D =  " + d);
                 if (d < 0) {
                     System.out.println("Нет корней");
                 } else {
